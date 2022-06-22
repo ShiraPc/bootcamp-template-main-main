@@ -267,32 +267,32 @@ getusersList();
 //}
 
 
-//
-// showUserById.onclick = () => {
-//     id = idShow.value;
-//     usersList.users.forEach(user => {
-//         if (user.id === parseInt(id)) {
-//             newUser = new User(user.firstName, user.weight);
-//             newUser.ShowUser(user);
-//         }
-//     })
-// }
 
-// searchBtn.onclick = () => {
-//     // search();
-//     if (idSearch.checked)
-//         s.printUsers(s.Search(parseInt(idSearch.value)));
-//     if (firstNameSearch.checked)git
-//         s.printUsers(s.Search(firstNameSearch.value));
-//     if (lastNameSearch.checked)
-//         s.printUsers(s.Search(lastNameSearch));
-//     if (citySearch.checked)
-//         s.printUsers(s.Search(citySearch.value));
-//     if (streetSearch.checked)
-//         s.printUsers(s.Search(streetSearch));
-//     if (numberSearch.checked)
-//         s.printUsers(s.Search(numberSearch.value));
-// }
+showUserById.onclick = () => {
+    id = idShow.value;
+    usersList.users.forEach(user => {
+        if (user.id === parseInt(id)) {
+            newUser = new User(user.firstName, user.weight);
+            newUser.ShowUser(user);
+        }
+    })
+}
+
+searchBtn.onclick = () => {
+    // search();
+    if (idSearch.checked)
+        s.printUsers(s.Search(parseInt(idSearch.value)));
+    if (firstNameSearch.checked)git
+        s.printUsers(s.Search(firstNameSearch.value));
+    if (lastNameSearch.checked)
+        s.printUsers(s.Search(lastNameSearch));
+    if (citySearch.checked)
+        s.printUsers(s.Search(citySearch.value));
+    if (streetSearch.checked)
+        s.printUsers(s.Search(streetSearch));
+    if (numberSearch.checked)
+        s.printUsers(s.Search(numberSearch.value));
+}
 
 loginBtn.onclick =() =>{
     id = loginInput.value;
