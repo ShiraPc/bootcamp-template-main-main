@@ -267,7 +267,7 @@ getusersList();
 //}
 
 
-
+//show user
 showUserById.onclick = () => {
     id = idShow.value;
     usersList.users.forEach(user => {
