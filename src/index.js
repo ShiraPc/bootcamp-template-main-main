@@ -36,7 +36,7 @@ class User {
         this.#id = ++this.Id;
         this.#UserWeight = UserWeight;
     };
-
+//shows single user
     ShowUser = (user) => {
         if (user != null) {
             const div = document.createElement('div');
@@ -122,7 +122,6 @@ class Manager {
     get getusersList() {
         return this.#usersList;
     }
-
     // SearchUserById(id){
     //     usersList.users = d;
     //     d = d.users.filter(fn => fn.id);
