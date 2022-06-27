@@ -208,7 +208,6 @@ const showUserById = document.querySelector('#showUserById');
 const idShow = document.querySelector('#idShow');
 const showAll = document.querySelector('#showAllUsers')
 const searchBtn = document.querySelector("#searchBtn");
-
 const firstNameSearch = document.querySelector('#firstNameSearch');
 const idSearch = document.querySelector('#idSearch');
 const lastNameSearch = document.querySelector('#lastNameSearch');
